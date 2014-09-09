@@ -1,0 +1,7 @@
+Running "yuidoc:Controller" (yuidoc) task             
+Start YUIDoc compile...                               
+Scanning: app/Controller/                             
+Output: doc/Controller/                               
+YUIDoc compile completed in 0.064 seconds             
+                                                      
+Done, without errors.                                 
