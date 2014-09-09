@@ -1,0 +1,143 @@
+{
+    "project": {
+        "name": "48c89b78adaf02fa42e8",
+        "description": "",
+        "version": "1.0.0",
+        "url": ""
+    },
+    "files": {
+        "app/Controller/UsersController.php": {
+            "name": "app/Controller/UsersController.php",
+            "modules": {},
+            "classes": {
+                "UserController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "UserController": {
+            "name": "UserController",
+            "shortname": "UserController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/Controller/UsersController.php",
+            "line": 3,
+            "description": "Users Controller",
+            "is_constructor": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 10,
+            "description": "Components",
+            "var": "array",
+            "class": "UserController"
+        },
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 16,
+            "itemtype": "method",
+            "name": "index",
+            "return": {
+                "description": "void"
+            },
+            "class": "UserController"
+        },
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 26,
+            "description": "view method",
+            "throws": {
+                "description": "NotFoundException"
+            },
+            "params": [
+                {
+                    "name": "string",
+                    "description": "$id"
+                }
+            ],
+            "return": {
+                "description": "void"
+            },
+            "class": "UserController"
+        },
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 41,
+            "description": "add method",
+            "return": {
+                "description": "void"
+            },
+            "class": "UserController"
+        },
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 60,
+            "description": "edit method",
+            "throws": {
+                "description": "NotFoundException"
+            },
+            "params": [
+                {
+                    "name": "string",
+                    "description": "$id"
+                }
+            ],
+            "return": {
+                "description": "void"
+            },
+            "class": "UserController"
+        },
+        {
+            "file": "app/Controller/UsersController.php",
+            "line": 86,
+            "description": "delete method",
+            "throws": {
+                "description": "NotFoundException"
+            },
+            "params": [
+                {
+                    "name": "string",
+                    "description": "$id"
+                }
+            ],
+            "return": {
+                "description": "void"
+            },
+            "class": "UserController"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: var",
+            "line": " app/Controller/UsersController.php:10"
+        },
+        {
+            "message": "Missing item type\nComponents",
+            "line": " app/Controller/UsersController.php:10"
+        },
+        {
+            "message": "Missing item type\nview method",
+            "line": " app/Controller/UsersController.php:26"
+        },
+        {
+            "message": "Missing item type\nadd method",
+            "line": " app/Controller/UsersController.php:41"
+        },
+        {
+            "message": "Missing item type\nedit method",
+            "line": " app/Controller/UsersController.php:60"
+        },
+        {
+            "message": "Missing item type\ndelete method",
+            "line": " app/Controller/UsersController.php:86"
+        }
+    ]
+}
